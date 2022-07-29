@@ -1,0 +1,14 @@
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.exe
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.deps.json
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.runtimeconfig.json
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.runtimeconfig.dev.json
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.dll
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.pdb
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.csproj.AssemblyReference.cache
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.AssemblyInfoInputs.cache
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.AssemblyInfo.cs
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.csproj.CoreCompileInputs.cache
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.dll
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.pdb
+G:\Projekty Github\Żyrafa\Giraffe\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.genruntimeconfig.cache
