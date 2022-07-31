@@ -38,6 +38,7 @@ namespace Giraffe
             string name = Console.ReadLine();
 
             Console.Write("Podaj liczbe: ");
+
             int liczba0 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Witaj " + name + ", Twoja liczba dnia to " + liczba0 * 69);
@@ -124,9 +125,10 @@ namespace Giraffe
                 Console.WriteLine("You are either not tall or not male or both");
             }
 
+
             if (isMale || isTall) // || oznacza lub, czyli wystarczy ze jeden z warunkow bedzie prawdziwy do egzekucji kodu
             {
-                Console.WriteLine("You are tall male");
+                Console.WriteLine("You are either tall or male or both");
             }
             else
             {
@@ -197,7 +199,7 @@ namespace Giraffe
             int numDay = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Twoj dzien tygodnia to " + GetDay(numDay));
 
-
+            
             //pętle while
 
             int index = 1;
@@ -208,61 +210,56 @@ namespace Giraffe
             } while (index <= 10);
 
 
+            //guess game
+
             string secretWord = "sword";
             string guess = "";
             int guessCount = 0;
-            int guessLimit = 3;
-            int guessUser = 3;
+            const int guessLimit = 4;
             bool outOfGuesses = false;
+
+
+            Console.WriteLine("Welcome to guess game!\nSecret word is \"king's weapon\"");
 
             do
             {
-                Console.Write("Rhymes with word\nGuess the secret word: ");
+                Console.Write("Guess the secret word: ");
                 guess = Console.ReadLine();
                 guessCount++;
 
-            }
-            while (guess != secretWord && !outOfGuesses);
-            {
-                if (guessCount < guessLimit)
+                if (guess == secretWord)
                 {
-                    if (guessUser != 0)
-                    { 
-                        guess = Console.ReadLine();
-                        Console.WriteLine("Zostały Ci " + guessUser + " próby");
-                        guessCount++;
-                        guessUser--;
-                    }
-                    else
-                    {
-                        guessUser--;
-                        guess = Console.ReadLine();
-                        guessCount++;
-
-                    }
+                    Console.Write("You are the best!!! ");
+                }
+                else if (guessCount < guessLimit)
+                {
+                    Console.WriteLine("You got " + (guessLimit - guessCount) + " tries remaining");
+                }
+                else if (guessCount < guessLimit && guessCount == 3)
+                {
+                    Console.WriteLine("You got only " + (guessLimit - guessCount)+ " try remaining");
                 }
                 else
                 {
                     outOfGuesses = true;
                 }
-            }
-            if(outOfGuesses)
+
+            } while (guess != secretWord && !outOfGuesses);
+
+            if (outOfGuesses)
             {
                 Console.Write("You lose!");
             }
-            else
-            {
-                Console.Write("Sword is the secret word :)");
-            }
-              
-           
 
 
 
 
 
 
-                Console.ReadLine();
+
+
+
+            Console.ReadLine();
 
            
         }
