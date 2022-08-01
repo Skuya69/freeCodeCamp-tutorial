@@ -248,12 +248,35 @@ namespace Giraffe
 
             if (outOfGuesses)
             {
-                Console.Write("You lose!");
+                Console.WriteLine ("You lose!");
             }
 
+            //for - loop, bardziej kompaktowy niz while, latwiejszy do zarządzania
 
 
+            int[] luckyNumbers2 = { 4, 8, 15, 16, 23, 42 };
 
+            for (int i = 1; i < luckyNumbers2.Length; i++)
+            {
+                Console.WriteLine(luckyNumbers2[i]);
+            }
+
+            // getPow
+
+            Console.WriteLine(GetPow(2, 3));
+
+            //2d arrays
+
+            int[,] numberGrid = {  //<-- im wiecej przecinków w [], tym więcej wymiarów tablicy
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 },
+            };
+
+            int[,] myArray = new int[2, 3];
+
+
+            Console.WriteLine(numberGrid[1, 1]);
 
 
 
@@ -264,7 +287,7 @@ namespace Giraffe
            
         }
 
-        //metoda
+        /////////////metoda
 
         static void SayHi(string name, int age)
         {
@@ -357,6 +380,19 @@ namespace Giraffe
 
         }
 
+        // for / metoda getPow(liczba bazowa, liczba przez ktorą podnieść do potęgi)
+
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for(int i = 0; i <powNum; i++)
+            {
+                result = result * baseNum;
+            }
+
+            return result;
+        }
 
 
     }

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZ6ZGnyQHOcGUnfqQEsOLU3Vk6mbo915r7kx7TqKx0lUo0YVLnnHEfKX30reVQ8p1y+L2ecvUF5kZDrabq9CIA==",
+  "dgSpecHash": "r7qHPDcPc6F6mCPQEBFoqN2sijnsR9jq87ytQvvp4fqJm/yTw3L5keYN3rk3ZvDQWuNmbo+4mf9ofnbtgeqN8Q==",
   "success": true,
-  "projectFilePath": "/Users/skuya/Documents/freeCodeCamp-tutorial/Giraffe/Giraffe/Giraffe.csproj",
-  "expectedPackageFiles": [
-    "/Users/skuya/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/Users/skuya/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.27/microsoft.netcore.app.host.osx-x64.3.1.27.nupkg.sha512",
-    "/Users/skuya/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "G:\\Projekty Github\\Giraffe tutorial\\freeCodeCamp-tutorial\\Giraffe\\Giraffe\\Giraffe.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

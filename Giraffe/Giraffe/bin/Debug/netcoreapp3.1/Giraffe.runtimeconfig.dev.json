@@ -1,8 +1,10 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/skuya/.dotnet/store/|arch|/|tfm|",
-      "/Users/skuya/.nuget/packages"
+      "C:\\Users\\Skuya\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Skuya\\.nuget\\packages",
+      "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }
